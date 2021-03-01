@@ -1,0 +1,65 @@
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.active{
+  background-color: green;
+}
+
+li a:hover:not(.active){
+  background-color: #111;
+}
+
+.marker {
+  border: 1px solid black;
+  background: green;
+  opacity: 0.8;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.infowindowWrap{
+  background: white;
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.infowindowtitle{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.infowindowaddress{
+  font-size: 13px;
+  font-weight: normal;
+}
